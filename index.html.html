@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio do jogo Batalha dos EPIs - Um jogo educativo sobre o uso de EPIs na construção civil">
+    <title>Batalha dos EPIs - Portfólio</title>
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            background-color: #0d0d0d;
+            color: #e4e4e4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: linear-gradient(135deg, #2b2b5f, #6a0572);
+            color: #e4e4e4;
+            text-align: center;
+            padding: 40px 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+       }
+        .logo {
+            margin-bottom: 10px;
+        }
+        .logo img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 10px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            animation: bounce 1s infinite alternate;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .content {
+            flex: 1;
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: #1c1c3d;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+        h2 {
+            color: #72c2a8;
+            margin-top: 0;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+        .game-art {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .game-art img {
+            max-width: 100%;
+            height: auto;
+            border: 3px solid #72c2a8;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease;
+        }
+        .game-art img:hover {
+            transform: scale(1.05);
+        }
+        .button {
+            display: inline-block;
+            background-color: #6a0572;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #9a0680;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        .feature {
+            background-color: #0d0d1e;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            flex: 1;
+            min-width: 250px;
+            max-width: 300px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+        .developers {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 30px 0;
+            background-color: #1c1c3d;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .developer {
+            background-color: #2b2b5f;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            flex: 1;
+            min-width: 200px;
+            max-width: 300px;
+        }
+        .developer img {
+            width: 150px;
+            height: 190px;
+            border-radius: 50%;
+            border: 2px solid #72c2a8;
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: #2b2b5f;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+        @keyframes bounce {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+<div class="logo">
+            <img src="img/logo.jpg" alt="Logo do Jogo">
+        </div>
+        <h1>Batalha dos EPIs</h1>
+        <p>Um jogo educativo sobre segurança no trabalho na construção civil</p>
+    </header>
+
+    <div class="content">
+        <h2>Introdução</h2>
+        <p>
+            O jogo <strong>Batalha dos EPIs</strong> é uma aventura interativa que coloca os jogadores no papel de um pedreiro em um canteiro de obras, enfrentando desafios como sacos de cimento e tijolos animados. Através de mecânicas de plataforma e combate, o jogador precisa utilizar diferentes Equipamentos de Proteção Individual (EPIs) para vencer os desafios e garantir sua segurança durante as fases.
+        </p>
+        <p>
+            Com uma estética em pixel art, o jogo busca trazer uma experiência divertida e educativa, onde os jogadores aprendem a importância do uso adequado dos EPIs de maneira prática e dinâmica. 
+        </p>
+
+        <div class="game-art">
+            <h2>Arte do Jogo</h2>
+            <img src="img/imagem fundo site.jpg" alt="Cena em pixel art do jogo Batalha dos EPIs">
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <h3>Desafios Incríveis</h3>
+                <p>Enfrente sacos de cimento e tijolos enquanto navega por um cenário de construção desafiador. Cada fase traz um novo obstáculo!</p>
+            </div>
+            <div class="feature">
+                <h3>Mecânicas Simples e Intuitivas</h3>
+                <p>Controles fáceis de aprender que incluem pular, correr e atacar, garantindo que todos possam aproveitar o jogo desde o início.</p>
+            </div>
+            <div class="feature">
+                <h3>Estética em Pixel Art</h3>
+                <p>Um visual retro que lembra os clássicos jogos de plataforma, com detalhes que dão vida ao canteiro de obras e aos personagens.</p>
+            </div>
+        </div>
+
+        <div class="game-art">
+            <img src="img/inimigo.jpg" alt="Outra ilustração em pixel art do jogo Batalha dos EPIs">
+        </div>
+
+        <h2>Sobre o Jogo</h2>
+        <p>
+            O objetivo do jogo é promover a conscientização sobre o uso de EPIs entre trabalhadores da construção civil, mostrando de forma lúdica como esses equipamentos podem proteger contra situações de risco. 
+            A mecânica de jogo inclui ações básicas como pular, correr e atacar, sendo ideal para treinar e divertir ao mesmo tempo.
+        </p>
+        <p>
+            Este protótipo é uma versão inicial do jogo, focada em apresentar as principais mecânicas e o estilo visual do projeto, com potencial para expansão em níveis e complexidade.
+        </p>
+        <div class="game-art">
+            <img src="img/personagem.jpg" alt="Imagem do personagem em ação no jogo">
+        </div>
+
+        <div class="game-art">
+            <a href="#download" class="button">Baixar Jogo</a>
+        </div>
+        
+        <div class="developers">
+            <div class="developer">
+                <img src="img/zé bunda.jpg" alt="Desenvolvedor 1">
+                <h3>Desenvolvedor 1</h3>
+                <p>Responsável pela programação do jogo e implementação das mecânicas de combate.</p>
+            </div>
+            <div class="developer">
+                <img src="img/wyner.jpg" alt="Desenvolvedor 2">
+                <h3>Desenvolvedor 2</h3>
+                <p>Responsável por criar os cenários do jogo e posições dos inimigos.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Batalha dos EPIs. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
